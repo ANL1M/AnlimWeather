@@ -1,6 +1,6 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="Theme.AnlimWeather" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.AnlimWeather" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Main color -->
         <item name="colorPrimary">@color/basic_color</item>
 
@@ -13,5 +13,14 @@
         <!-- StatusBar and NavigationBar -->
         <item name="android:statusBarColor">@color/black</item>
         <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <!-- Start screen theme -->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+
+        <!-- StatusBar and NavigationBar -->
+        <item name="android:statusBarColor">@color/gray</item>
+        <item name="android:navigationBarColor">@color/gray</item>
     </style>
 </resources>
